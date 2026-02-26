@@ -11,7 +11,9 @@ const loadFileRoutes = function (app) {
       RestaurantController.create)
 
   app.route('/restaurants/:restaurantId')
-    .get(RestaurantController.show)
+    .get(
+    // TODO: Add needed middlewares
+      RestaurantController.show)
     .put(
     // TODO: Add needed middlewares
       RestaurantController.update)
