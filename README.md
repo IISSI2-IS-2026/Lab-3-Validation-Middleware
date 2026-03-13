@@ -104,6 +104,10 @@ app.route('/products')
       ProductController.create
     )
 ```
+### 3.0. General working flow of middleware chain
+
+<img width="8192" height="1541" alt="lab3-diagrama" src="https://github.com/user-attachments/assets/aeb701d2-851a-4f9e-af6f-9b0b54d78765" />
+
 
 ### 3.1. Validation middlewares
 
